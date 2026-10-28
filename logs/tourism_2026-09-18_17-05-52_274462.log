@@ -1,0 +1,22 @@
+2026-09-18 17:05:52.300 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-18 17:05:52.301 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-18 17:05:52.419 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-18 17:05:52.420 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-18 17:09:53.145 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '知音号全天时间'}
+2026-09-18 17:09:53.146 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '知音号全天时间'}
+2026-09-18 17:09:53.146 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：知音号全天时间
+2026-09-18 17:10:03.909 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：知音号游船的开放时间通常为每日19:00至22:00，期间会有两岸建筑灯光秀。具体开放时间可能会有变动，建议您在出行前通过官方渠道或景区公告确认最新信息。...
+2026-09-18 17:10:27.059 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '知音号附近酒店推荐'}
+2026-09-18 17:10:27.060 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '知音号附近酒店推荐'}
+2026-09-18 17:10:27.060 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：知音号附近酒店推荐
+2026-09-18 17:10:49.116 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：知音号游船位于武汉长江上，附近的酒店推荐如下：
+
+1. 武汉洲际酒店：位于武汉市汉阳区鹦鹉大道，交通便利，距离知音号游船码头不远，酒店设施齐全，服务优质。
+
+2...
+2026-09-18 17:11:08.778 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 17:11:08.778 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 17:11:08.780 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区1,实时人流：459
+2026-09-18 17:11:50.377 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 5, 'preference': '自然风光', 'crowd': '拥挤', 'weather': '大雨'}
+2026-09-18 17:11:50.378 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 5, 'preference': '自然风光', 'crowd': '拥挤', 'weather': '大雨'}
+2026-09-18 17:11:50.378 | INFO     | app.agents.route_agent:run:17 - 【路线智能体】 时长:5h,偏好:自然风光,人流:拥挤,天气:大雨

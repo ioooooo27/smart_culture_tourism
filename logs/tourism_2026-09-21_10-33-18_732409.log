@@ -1,0 +1,19 @@
+2026-09-21 10:33:18.748 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-21 10:33:18.749 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-21 10:33:18.835 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-21 10:33:18.836 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-21 10:35:40.240 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-21 10:35:40.241 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-21 10:35:40.241 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：黄鹤楼怎么样？有什么好玩的和历史背景？
+2026-09-21 10:35:57.564 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：黄鹤楼位于湖北省武汉市武昌区蛇山之巅，是国家5A级旅游景区，被誉为"天下江山第一楼"。这座楼始建于三国时期吴黄武二年（公元223年），最初是孙权修建的军事瞭望楼...
+2026-09-21 10:35:57.567 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼有什么历史背景？'}
+2026-09-21 10:35:57.568 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼有什么历史背景？'}
+2026-09-21 10:35:57.568 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：黄鹤楼有什么历史背景？
+2026-09-21 10:36:13.518 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：黄鹤楼位于湖北省武汉市武昌区蛇山之巅，历史悠久，文化底蕴深厚。其历史背景可追溯至三国时期吴黄武二年（公元223年），最初是孙权为军事瞭望而修建的军事瞭望楼。黄鹤...
+2026-09-21 10:36:13.523 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '今天黄鹤楼人多吗天气好吗'}
+2026-09-21 10:36:13.524 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '今天黄鹤楼人多吗天气好吗'}
+2026-09-21 10:36:13.526 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：今天黄鹤楼人多吗天气好吗
+2026-09-21 10:36:18.109 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：今天黄鹤楼的人流量情况我无法实时查询，但根据以往经验，节假日或周末时黄鹤楼的人流量通常较大。至于天气，我建议您查看最新的天气预报，因为天气状况会实时变化。通常来...
+2026-09-21 10:36:42.793 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-21 10:36:42.793 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-21 10:36:42.794 | INFO     | app.agents.route_agent:run:17 - 【路线智能体】 时长:6h,偏好:自然风光,人流:正常,天气:晴天

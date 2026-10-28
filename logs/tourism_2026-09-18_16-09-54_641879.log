@@ -1,0 +1,49 @@
+2026-09-18 16:09:54.663 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-18 16:09:54.664 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-18 16:09:54.780 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-18 16:09:54.781 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-18 16:14:37.523 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼有什么历史？'}
+2026-09-18 16:14:37.524 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼有什么历史？'}
+2026-09-18 16:15:22.026 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '景区环境优美服务热情'}
+2026-09-18 16:15:22.026 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：景区环境优美服务热情
+2026-09-18 16:15:37.182 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '景区环境优美服务热情'}
+2026-09-18 16:15:37.182 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：景区环境优美服务热情
+2026-09-18 16:15:54.877 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '环境一般'}
+2026-09-18 16:15:54.877 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：环境一般
+2026-09-18 16:16:20.556 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '体验很差'}
+2026-09-18 16:16:20.556 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：体验很差
+2026-09-18 16:19:19.264 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:19:19.265 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:19:19.266 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区1,实时人流：459
+2026-09-18 16:19:26.862 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 2}
+2026-09-18 16:19:26.863 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 2}
+2026-09-18 16:19:26.863 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区2,实时人流：647
+2026-09-18 16:19:29.709 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 3}
+2026-09-18 16:19:29.709 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 3}
+2026-09-18 16:19:29.710 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区3,实时人流：306
+2026-09-18 16:38:58.971 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:38:58.974 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:39:09.378 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:39:09.379 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:39:21.484 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:39:21.484 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:39:21.493 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区1,实时人流：459
+2026-09-18 16:43:48.352 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:43:48.352 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-09-18 16:43:59.355 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '武汉什么时候去旅游最合适？'}
+2026-09-18 16:43:59.356 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '武汉什么时候去旅游最合适？'}
+2026-09-18 16:44:02.841 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '东湖有哪些好玩的景点？'}
+2026-09-18 16:44:02.842 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '东湖有哪些好玩的景点？'}
+2026-09-18 16:44:51.813 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-18 16:44:51.814 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-18 16:44:51.815 | INFO     | app.agents.route_agent:run:17 - 【路线智能体】 时长:6h,偏好:自然风光,人流:正常,天气:晴天
+2026-09-18 16:46:09.401 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '人太多了，排队等了一个小时，体验很差'}
+2026-09-18 16:46:09.402 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：人太多了，排队等了一个小时，体验很差
+2026-09-18 16:46:11.943 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '景区一般，风景还行'}
+2026-09-18 16:46:11.944 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：景区一般，风景还行
+2026-09-18 16:46:15.934 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:46:15.934 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 1}
+2026-09-18 16:46:15.935 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区1,实时人流：459
+2026-09-18 16:46:21.247 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'service_notice', 'scenic_id': 3}
+2026-09-18 16:46:21.248 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: service_notice, 用户输入:{'task_type': 'service_notice', 'scenic_id': 3}
+2026-09-18 16:46:21.248 | INFO     | app.agents.dispatch_agent:run:15 - 【调度智能体】景区3,实时人流：306

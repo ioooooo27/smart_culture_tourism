@@ -1,0 +1,22 @@
+2026-10-14 15:47:50.146 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-14 15:47:50.147 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-14 15:47:50.253 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-14 15:47:50.253 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-14 15:48:17.360 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '东湖有哪些好玩的景点？'}
+2026-10-14 15:48:17.360 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '东湖有哪些好玩的景点？'}
+2026-10-14 15:48:17.361 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：东湖有哪些好玩的景点？
+2026-10-14 15:48:47.639 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖拥有众多好玩的景点，以下是一些不容错过的：
+
+1. **听涛景区**：这里是东湖的核心景区，以湖光山色著称，沿湖有行吟阁、长天楼、鲁迅广场等景点，是欣赏东湖...
+2026-10-14 15:50:14.403 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '武汉什么时候去旅游最合适？'}
+2026-10-14 15:50:14.404 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '武汉什么时候去旅游最合适？'}
+2026-10-14 15:50:14.404 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：武汉什么时候去旅游最合适？
+2026-10-14 15:50:24.367 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉最合适的旅游时间是春秋两季，尤其是3月中旬至4月上旬的樱花季和10月至11月。春天可以欣赏到武汉大学和东湖的樱花盛开，秋高气爽时，东湖周边的层林尽染，风景格...
+2026-10-14 15:52:26.273 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '湖北省博物馆门票多少钱？怎么预约？'}
+2026-10-14 15:52:26.273 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '湖北省博物馆门票多少钱？怎么预约？'}
+2026-10-14 15:52:26.273 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：湖北省博物馆门票多少钱？怎么预约？
+2026-10-14 15:52:32.118 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：湖北省博物馆的门票是免费的。您可以通过以下方式预约参观：
+
+1. 微信搜索“湖北省博物馆”公众号。
+2. 进入公众号后，点击“参观服务”。
+3. 选择“门票预约...

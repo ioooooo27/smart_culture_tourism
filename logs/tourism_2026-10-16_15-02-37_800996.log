@@ -1,0 +1,22 @@
+2026-10-16 15:02:37.861 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-16 15:02:37.861 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-16 15:02:38.119 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-16 15:02:38.119 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-16 15:06:44.736 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼有什么历史背景？'}
+2026-10-16 15:06:44.737 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼有什么历史背景？'}
+2026-10-16 15:06:44.737 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：黄鹤楼有什么历史背景？
+2026-10-16 15:06:58.238 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：黄鹤楼位于湖北省武汉市武昌区蛇山之巅，它有着悠久的历史背景。始建于三国时期吴黄武二年（公元223年），最初是由孙权修建的军事瞭望楼，用于军事防御和观察敌情。这座...
+2026-10-16 15:06:58.243 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 15:06:58.243 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 15:06:58.244 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-10-16 15:07:06.070 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 15:07:06.071 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 15:07:06.072 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-10-16 15:07:32.468 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 15:07:32.468 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 15:07:32.469 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。
+2026-10-16 15:07:37.933 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{
+  "title": "长江大桥漫步线",
+  "desc": "沿着长江大桥感受武汉的历史与现代交融。",
+  "spots": ["长江...

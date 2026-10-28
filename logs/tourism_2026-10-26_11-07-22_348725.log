@@ -1,0 +1,6 @@
+2026-10-26 11:07:22.376 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-26 11:07:22.376 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-26 11:07:22.455 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-26 11:07:22.455 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-26 11:12:23.545 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: analysis_comment, 用户输入:{'task_type': 'analysis_comment', 'comment_text': '很美值得一去'}
+2026-10-26 11:12:23.546 | INFO     | app.agents.sentiment_agent:run:18 - 【情感智能体】分析评论：很美值得一去

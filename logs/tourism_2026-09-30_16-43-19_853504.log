@@ -1,0 +1,16 @@
+2026-09-30 16:43:19.894 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 16:43:19.894 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 16:43:20.090 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 16:43:20.090 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 16:43:20.133 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:20.134 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:20.134 | INFO     | app.agents.route_agent:run:56 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-09-30 16:43:27.439 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:27.440 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:27.440 | INFO     | app.agents.route_agent:run:56 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:43:34.087 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '综合体验', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:34.088 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '综合体验', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:43:34.088 | INFO     | app.agents.route_agent:run:56 - 【路线智能体】时长:6h, 偏好:综合体验
+2026-09-30 16:47:28.854 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:47:28.854 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:47:28.854 | INFO     | app.agents.route_agent:run:56 - 【路线智能体】时长:6h, 偏好:自然风光

@@ -1,0 +1,58 @@
+2026-09-30 15:57:19.537 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 15:57:19.538 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 15:57:19.758 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 15:57:19.758 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 16:10:47.335 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '请介绍"西湖"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右'}
+2026-09-30 16:10:47.335 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '请介绍"西湖"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右'}
+2026-09-30 16:10:47.336 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：请介绍"西湖"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右
+2026-09-30 16:10:56.489 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：西湖位于浙江省杭州市，是中国著名的风景名胜区。西湖以秀美的湖光山色、丰富的历史文化著称，被誉为“人间天堂”。湖面波光粼粼，环绕着苏堤、白堤等著名景点。特色包括断...
+2026-09-30 16:13:23.993 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右'}
+2026-09-30 16:13:23.993 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右'}
+2026-09-30 16:13:23.994 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：请介绍"鸡鸣寺"这个景点/地点，包括位置、特色、门票、游玩建议，200字左右
+2026-09-30 16:13:35.516 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于南京市玄武区鸡鸣山东麓，是南京最古老的梵刹之一，有着1500多年的历史。寺内主要建筑有天王殿、大雄宝殿、藏经楼等，其中大雄宝殿供奉着三宝佛。特色包括古...
+2026-09-30 16:19:21.101 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}'}
+2026-09-30 16:19:21.102 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}'}
+2026-09-30 16:19:21.102 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}
+2026-09-30 16:19:33.801 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：{
+  "location": "鸡鸣寺位于江苏省南京市玄武区鸡鸣寺路1号",
+  "features": "鸡鸣寺是南京著名的古刹之一，拥有千年历史，寺内建筑...
+2026-09-30 16:19:33.808 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}'}
+2026-09-30 16:19:33.808 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}'}
+2026-09-30 16:19:33.809 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：请介绍"鸡鸣寺"这个景点，用结构化JSON返回：{location:"位置",features:"特色亮点",ticket:"门票价格",tips:"游玩建议",summary:"80字简介"}
+2026-09-30 16:19:46.709 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{
+  "location": "南京市秦淮区鸡鸣寺路1号",
+  "features": "鸡鸣寺是一座历史悠久的佛教寺院，拥有千年古刹的庄严...
+2026-09-30 16:33:00.691 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:33:00.691 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:33:00.691 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:33:09.321 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于南京市玄武区，是一座有着1700多年历史的著名古寺。这里风景秀美，古树参天，是南京的重要佛教文化遗址之一。门票价格为30元。鸡鸣寺的特色在于其独特的古...
+2026-09-30 16:33:28.915 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '鸡鸣寺'}
+2026-09-30 16:33:28.915 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '鸡鸣寺'}
+2026-09-30 16:33:28.915 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：鸡鸣寺
+2026-09-30 16:33:40.848 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于江苏省南京市玄武区，是南京最古老的佛教寺院之一，始建于东晋时期，距今已有1600多年的历史。鸡鸣寺因位于古都南京的鸡鸣山而得名，是南京佛教文化的重要发...
+2026-09-30 16:33:41.072 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '能不能给我鸡鸣寺图片'}
+2026-09-30 16:33:41.072 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '能不能给我鸡鸣寺图片'}
+2026-09-30 16:33:41.072 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：能不能给我鸡鸣寺图片
+2026-09-30 16:33:49.651 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：很抱歉，作为一个文本交互的AI，我无法直接提供图片。但是，您可以通过以下几种方式获取鸡鸣寺的图片：
+
+1. 在线搜索：您可以在互联网搜索引擎中输入“鸡鸣寺”进行...
+2026-09-30 16:36:14.636 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:36:14.636 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:36:14.636 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:36:21.909 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于南京市玄武区鸡鸣山东麓，是南京最古老的寺院之一，有着1500多年的历史。门票价格为40元。寺内建筑古朴典雅，香火旺盛，尤以晨钟暮鼓最为著名。特色景点包...
+2026-09-30 16:36:29.836 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:36:29.836 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:36:29.836 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"鸡鸣寺"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:36:37.101 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于南京市玄武区鸡鸣山东麓，是南京最古老的梵刹之一，有着1500多年的历史。门票价格为40元。寺内古树参天，环境幽静，主要景点有天王殿、大雄宝殿、藏经楼等...
+2026-09-30 16:36:39.653 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '鸡鸣寺'}
+2026-09-30 16:36:39.653 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '鸡鸣寺'}
+2026-09-30 16:36:39.653 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：鸡鸣寺
+2026-09-30 16:37:05.381 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：鸡鸣寺位于江苏省南京市玄武区，是一座有着千年历史的著名古刹，始建于东晋时期，是南京最古老的寺院之一。鸡鸣寺因位于鸡鸣山而得名，山上有古井，相传清晨鸡鸣时井水会沸...
+2026-09-30 16:39:30.454 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '能不能给我鸡鸣寺图片'}
+2026-09-30 16:39:30.454 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '能不能给我鸡鸣寺图片'}
+2026-09-30 16:39:30.454 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：能不能给我鸡鸣寺图片
+2026-09-30 16:39:35.437 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：很抱歉，作为一个文本交互的AI，我无法直接提供图片。不过，您可以通过网络搜索引擎，如Google图片、百度图片等，输入“鸡鸣寺”关键词来查找鸡鸣寺的图片。这样您...
+2026-09-30 16:40:02.223 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:40:02.223 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:40:02.224 | INFO     | app.agents.route_agent:run:56 - 【路线智能体】时长:6h, 偏好:自然风光

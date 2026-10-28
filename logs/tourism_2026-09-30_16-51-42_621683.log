@@ -1,0 +1,104 @@
+2026-09-30 16:51:42.683 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 16:51:42.683 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 16:51:42.992 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-09-30 16:51:42.992 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-09-30 16:51:43.040 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:51:43.041 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:51:43.041 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:51:57.239 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:51:57.240 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:51:57.240 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:52:15.895 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:15.895 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:15.895 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:52:25.814 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:25.815 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:25.815 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:52:43.090 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:43.090 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:43.090 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:52:52.695 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:52.696 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:52:52.696 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:53:06.943 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:06.943 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:06.943 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:53:23.788 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:23.788 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:23.788 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:53:33.520 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:33.521 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:33.521 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:53:44.136 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:44.136 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:44.136 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:53:54.598 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:54.598 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:53:54.598 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:54:05.884 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:05.884 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:05.885 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-09-30 16:54:21.495 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:21.495 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:21.495 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-09-30 16:54:30.097 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:30.100 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:54:30.101 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-09-30 16:56:13.999 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:56:13.999 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 16:56:13.999 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-09-30 16:59:03.709 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:03.709 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:03.709 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:59:08.054 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，是国家AAAA级旅游景区。这里拥有丰富的植物种类，包括珍稀植物和特色植物园区。门票价格为30元。特色包括温室植物馆、木兰园、樱...
+2026-09-30 16:59:34.084 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:34.084 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:34.084 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:59:39.893 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，是国家4A级旅游景区。这里拥有丰富的植物种类，包括珍稀植物和特色植物展示区。门票价格为30元。植物园内景色宜人，适合赏花、休闲...
+2026-09-30 16:59:39.946 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:39.947 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:39.947 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:59:46.127 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，是国家4A级旅游景区。这里拥有丰富的植物种类，包括珍稀植物和特色花卉。门票价格约为30元。园内特色景点有温室、樱花园、梅园等，...
+2026-09-30 16:59:46.175 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:46.176 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:46.176 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:59:52.268 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，是国家4A级旅游景区。这里拥有丰富的植物种类，包括国内外珍稀植物。门票价格为20元。特色在于其独特的植物展览和四季花卉观赏。游...
+2026-09-30 16:59:52.331 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:52.331 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:52.331 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 16:59:57.887 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，紧邻东湖听涛景区，是国家AAAA级旅游景区。园内拥有丰富的植物种类，包括温室、杜鹃园、木兰园等特色景点。门票价格为40元。游玩...
+2026-09-30 16:59:57.978 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:58.003 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 16:59:58.004 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 17:00:05.019 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，是国家4A级旅游景区。这里拥有丰富的植物种类，包括珍稀植物和特色植物区。门票价格为50元。特色景点有温室、木兰园、樱花园等。游...
+2026-09-30 17:00:05.144 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 17:00:05.145 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-09-30 17:00:05.145 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"武汉植物园"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-09-30 17:00:10.294 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：武汉植物园位于武汉市东湖风景区内，紧邻东湖听涛景区，是国家4A级旅游景区。这里拥有丰富的植物种类，包括热带雨林、蔷薇园、竹园等特色园区。门票价格为30元。游玩建...
+2026-09-30 17:04:06.607 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 17:04:06.607 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-09-30 17:04:06.607 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-09-30 17:06:36.870 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:06:36.871 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:06:36.871 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:06:44.174 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于湖北省武汉市武昌区东部，是中国最大的城中湖。这里拥有101.98公里的绿道，串联听涛、磨山、落雁等五大景区。特色包括听涛景区的湖光山色、磨山景区的...
+2026-09-30 17:06:51.059 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:06:51.060 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:06:51.060 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:07:01.180 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于湖北省武汉市武昌区，是中国最大的城中湖，拥有33平方公里水域。特色包括听涛、磨山、落雁等五大景区，其中听涛景区是核心，有行吟阁、长天楼等景点。磨山...
+2026-09-30 17:07:01.183 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:01.184 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:01.184 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:07:11.126 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于武汉市武昌区东部，是中国最大的城中湖，拥有33平方公里水域。景区内绿道全长101.98公里，串联听涛、磨山等五大景区。特色包括听涛景区的湖光山色、...
+2026-09-30 17:07:11.126 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:11.127 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:11.127 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:07:17.862 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于武汉市武昌区东部，是中国最大的城中湖，水域面积33平方公里。景区免费开放，以听涛、磨山、落雁、吹笛、白马五大景区组成。特色包括东湖绿道，全长101...
+2026-09-30 17:07:17.863 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:17.863 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:07:17.863 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:07:24.080 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于武汉市武昌区东部，是中国最大的城中湖，水域面积33平方公里。门票免费，以绿道骑行、赏樱花、观湖光山色为特色。建议租用共享单车或景区观光车沿绿道骑行...
+2026-09-30 17:11:01.990 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:11:01.990 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右'}
+2026-09-30 17:11:01.990 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"东湖风景区"这个景点，包括位置、门票、特色、游玩建议，200字左右
+2026-09-30 17:11:12.289 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：东湖风景区位于武汉市武昌区东部，是中国最大的城中湖，面积达33平方公里。这里以东湖绿道为特色，全长101.98公里，串联五大景区，是国内外著名的城市环湖绿道。风...

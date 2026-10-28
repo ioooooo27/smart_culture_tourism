@@ -1,0 +1,60 @@
+2026-10-16 14:10:23.346 | INFO     | __mp_main__:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-16 14:10:23.346 | INFO     | __mp_main__:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-16 14:10:23.451 | INFO     | main:<module>:34 - 智慧文旅后端服务启动成功！访问文档地址： http://127.0.0.1:8000/docs
+2026-10-16 14:10:23.451 | INFO     | main:<module>:35 - 智慧文旅前端页面： http://127.0.0.1:8000/
+2026-10-16 14:11:52.847 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:11:52.848 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:11:52.848 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-10-16 14:13:50.122 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:13:50.122 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '人文古迹', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:13:50.122 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:人文古迹
+2026-10-16 14:14:23.530 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-10-16 14:14:23.531 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-10-16 14:14:23.531 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-10-16 14:14:30.482 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：老君山位于河南省洛阳市栾川县，是国家5A级旅游景区。这里山势雄伟，景色秀丽，是道教圣地之一。门票价格为100元。老君山以奇峰异石、云海日出、天池碧波等自然景观著...
+2026-10-16 14:19:11.926 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-10-16 14:19:11.927 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言'}
+2026-10-16 14:19:11.927 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：介绍"老君山"这个景点，包括位置、门票、特色、游玩建议，200字左右，自然语言
+2026-10-16 14:19:18.359 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：老君山位于河南省洛阳市栾川县，是国家5A级旅游景区，以道教文化为特色。山势雄伟，风光旖旎，有“北国江南”之称。门票价格为100元。特色景点包括玉皇顶、老君炉、丹...
+2026-10-16 14:19:44.751 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-10-16 14:19:44.752 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼怎么样？有什么好玩的和历史背景？'}
+2026-10-16 14:19:44.752 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：黄鹤楼怎么样？有什么好玩的和历史背景？
+2026-10-16 14:19:58.619 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：黄鹤楼是国家5A级旅游景区，位于湖北省武汉市武昌区蛇山之巅，享有“天下江山第一楼”的美誉。这座楼始建于三国时期，最初是孙权为军事瞭望而建，历经多次毁坏与重建，现...
+2026-10-16 14:20:17.161 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '黄鹤楼附近有什么小吃'}
+2026-10-16 14:20:17.161 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '黄鹤楼附近有什么小吃'}
+2026-10-16 14:20:17.161 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：黄鹤楼附近有什么小吃
+2026-10-16 14:20:25.768 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：黄鹤楼附近的小吃非常丰富，这里汇集了武汉的地道美食。您可以在附近品尝到以下几种特色小吃：
+
+1. 热干面：武汉的标志性早餐，以劲道的碱水面、香浓的芝麻酱和丰富的...
+2026-10-16 14:23:30.597 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:23:30.597 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: plan_route, 用户输入:{'task_type': 'plan_route', 'total_time': 6, 'preference': '自然风光', 'crowd': '正常', 'weather': '晴天'}
+2026-10-16 14:23:30.597 | INFO     | app.agents.route_agent:run:24 - 【路线智能体】时长:6h, 偏好:自然风光
+2026-10-16 14:33:51.228 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:33:51.228 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:33:51.229 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：用户在武汉想围绕"长江大桥"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。
+2026-10-16 14:33:57.853 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{
+  "title": "长江大桥漫步之旅",
+  "desc": "沿着长江大桥感受武汉的城市脉络，领略江景风光。",
+  "spots":...
+2026-10-16 14:35:10.257 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '用户在武汉想围绕"老君山"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:35:10.258 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '用户在武汉想围绕"老君山"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:35:10.258 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：用户在武汉想围绕"老君山"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。
+2026-10-16 14:35:15.545 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{"title":"老君山文化漫步之旅","desc":"感受老君山的历史文化，漫步老街小巷，品味地道的武汉美食。","spots":["归元禅...
+2026-10-16 14:35:36.252 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '用户在武汉想围绕"东湖"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:35:36.253 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '用户在武汉想围绕"东湖"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:35:36.253 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：用户在武汉想围绕"东湖"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。
+2026-10-16 14:35:42.333 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{
+  "title": "东湖漫步之旅",
+  "desc": "漫步东湖，感受自然与城市的和谐交融。",
+  "spots": ["东湖听涛...
+2026-10-16 14:43:34.132 | INFO     | app.api.agent_api:run_agent_task:14 - 收到智能体请求: {'task_type': 'qa', 'question': '用户在武汉想围绕"昙华林"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:43:34.132 | INFO     | app.agents.agent_scheduler:dispatch_task:22 - 调度器收到任务: qa, 用户输入:{'task_type': 'qa', 'question': '用户在武汉想围绕"昙华林"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。'}
+2026-10-16 14:43:34.133 | INFO     | app.agents.guide_agent:run:50 - 【导览智能体】用户提问：用户在武汉想围绕"昙华林"做一条城市漫步路线（citywalk）。请返回严格JSON（不要markdown）：{"title":"路线名","desc":"一句话介绍","spots":["景点1","景点2","景点3","景点4"],"foods":["店名1-招牌菜","店名2-招牌菜"]}，推荐3-5个步行可达的点，美食要具体到店名和招牌菜。只返回JSON。
+2026-10-16 14:43:41.400 | INFO     | app.agents.guide_agent:run:81 - 【导览智能体】智谱回答成功：```json
+{
+  "title": "昙华林文艺漫步",
+  "desc": "漫步在百年老街，感受文艺氛围。",
+  "spots": ["昙华林老街"...
